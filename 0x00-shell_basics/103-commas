@@ -1,3 +1,2 @@
 #!/bin/bash
-ls -amp
-echo ""
+echo $(ls -amp )$(echo '\n')
