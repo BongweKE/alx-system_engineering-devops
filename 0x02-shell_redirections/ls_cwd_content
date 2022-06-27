@@ -1,0 +1,23 @@
+total 80
+drwxrwxr-x 2 vagrant vagrant 4096 Jun 27 21:21 .
+drwxrwxr-x 6 vagrant vagrant 4096 Jun 27 14:35 ..
+-rwxrwxr-x 1 vagrant vagrant   35 Jun 27 14:09 0-hello_world
+-rwxrwxr-x 1 vagrant vagrant   32 Jun 27 13:02 0-hello_world~
+lrwxrwxrwx 1 vagrant vagrant   32 Jun 27 13:07 .#1-confused_smiley -> vagrant@trusty64.3193:1656321429
+-rwxrwxr-x 1 vagrant vagrant   28 Jun 27 13:08 #1-confused_smiley#
+-rwxrwxr-x 1 vagrant vagrant   28 Jun 27 13:07 1-confused_smiley
+-rwxrwxr-x 1 vagrant vagrant   25 Jun 27 13:04 1-confused_smiley~
+-rwxrwxr-x 1 vagrant vagrant   35 Jun 27 14:21 2-hellofile
+-rwxrwxr-x 1 vagrant vagrant   47 Jun 27 14:40 3-twofiles
+-rwxrwxr-x 1 vagrant vagrant   40 Jun 27 14:39 3-twofiles~
+-rwxrwxr-x 1 vagrant vagrant   29 Jun 27 19:27 4-lastlines
+-rwxrwxr-x 1 vagrant vagrant   12 Jun 27 19:26 4-lastlines~
+-rwxrwxr-x 1 vagrant vagrant   29 Jun 27 19:40 5-firstlines
+-rw-rw-r-- 1 vagrant vagrant   29 Jun 27 19:39 5-firstlines~
+-rwxrwxr-x 1 vagrant vagrant   41 Jun 27 19:52 6-third_line
+-rw-rw-r-- 1 vagrant vagrant   12 Jun 27 19:50 6-third_line~
+-rwxrwxr-x 1 vagrant vagrant   99 Jun 27 21:17 7-file
+-rwxrwxr-x 1 vagrant vagrant   87 Jun 27 20:17 7-file~
+-rw-rw-r-- 1 vagrant vagrant  800 Jun 27 19:45 iacta
+-rw-rw-r-- 1 vagrant vagrant    0 Jun 27 21:21 ls_cwd_content
+-rw-rw-r-- 1 vagrant vagrant  865 Jun 27 20:31 README.md
