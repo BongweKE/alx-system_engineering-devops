@@ -7,4 +7,5 @@ A simple script that prints “Hello, World”, followed by a new line to the st
 A simple  script that displays a confused smiley "(Ôo)'.
 ## 2-hellofile
 Demonstrates the use of `cat` and `less` to Display the content of the /etc/passwd file.
-## 
+## 3-twofiles
+Script to Display the content of /etc/passwd and /etc/hosts
