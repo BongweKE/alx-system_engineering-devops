@@ -11,3 +11,7 @@ Demonstrates the use of `cat` and `less` to Display the content of the /etc/pass
 Script to Display the content of /etc/passwd and /etc/hosts
 ## 4-lastlines
 Simple script to Display the last 10 lines of /etc/passwd
+## 5-firstlines
+Simple script to Display the first 10 lines of /etc/passwd
+## 6-third_line
+script that displays the third line of a file
