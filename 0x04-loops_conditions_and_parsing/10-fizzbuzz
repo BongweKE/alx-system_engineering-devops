@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+
+for i in {1..100};do
+    let rem1="i % 3"
+    let rem2="i % 5"
+
+    if [ "$rem1" -eq 0 -a "$rem2" -eq 0 ]
+    then
+	echo "FizzBuzz"
+    elif [ "$rem1" -eq 0 ]
+    then
+	echo "Fizz"
+    elif [ "$rem2" -eq 0 ]
+    then
+	echo "Buzz"
+    else
+	echo $i
+    fi
+done
