@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+LIST="$(ls .)"
+
+for name in $LIST;do
+    i=`expr index $name -`
+    echo ${name:i}
+done
