@@ -1,14 +1,12 @@
 #!/usr/bin/env bash
-
-i=0
-
-# Write a Bash script that loops from 1 to 10 and:
-
+# a Bash script that loops from 1 to 10 and:
 # displays bad luck for the 4th loop iteration
 # displays good luck for the 8th loop iteration
 # displays Best School for the other iterations
 # Requirements:
 # A bash script to showcase chinese superstition
+
+i=0
 
 while [ $i -lt 10 ]; do
     if [ $i -eq 3 ]
