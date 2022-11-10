@@ -3,5 +3,5 @@
 LIST="$(ls .)"
 
 for name in $LIST;do
-    echo ${name#*-}
+    echo $"${name#*-}"
 done
