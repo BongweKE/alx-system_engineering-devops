@@ -22,5 +22,5 @@ while [ $i -le 20 ]; do
 	echo "bad luck from Italy"
 	;;
     esac
-    let "i+=1"
+    ((i+=1))
 done

@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
 for i in {1..10};do
-    echo "Best School"
+    if [ $i = $i ]
+    then
+	echo "Best School"
+    fi
 done

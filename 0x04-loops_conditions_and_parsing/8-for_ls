@@ -3,6 +3,5 @@
 LIST="$(ls .)"
 
 for name in $LIST;do
-    i=`expr index $name -`
-    echo ${name:i}
+    echo ${name#*-}
 done
