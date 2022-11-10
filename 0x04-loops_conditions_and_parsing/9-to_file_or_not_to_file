@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# A bash script to check a file
 fname="school"
 
 if [ -e "$fname" ]

@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# A bash script to change the way ls works 
 
 LIST="$(ls .)"
 

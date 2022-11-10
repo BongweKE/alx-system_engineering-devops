@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# a bash script to print in fizzbuzz from 1 to 100
 
 for i in {1..100};do
     ((rem1=i % 3))

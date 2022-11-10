@@ -8,10 +8,7 @@ i=0
 # displays good luck for the 8th loop iteration
 # displays Best School for the other iterations
 # Requirements:
-
-# You must use the while loop (for and until are forbidden)
-# You must use the if, elif and else statements
-
+# A bash script to showcase chinese superstition
 
 while [ $i -lt 10 ]; do
     if [ $i -eq 3 ]

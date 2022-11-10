@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# a script to print using while loop
 
 i=0
 

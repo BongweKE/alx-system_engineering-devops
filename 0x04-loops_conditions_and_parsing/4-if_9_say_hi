@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# A bash script to use conditionals and while loop to print
 
 i=0
 

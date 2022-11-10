@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# A bash script to mimick clock funcitonality
 
 h=0
 
