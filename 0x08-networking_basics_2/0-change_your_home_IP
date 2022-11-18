@@ -7,25 +7,7 @@
 
 cp /etc/hosts ./hosts.new
 
-localhost_exitsts="$(grep -c '[^-]localhost' hosts.new)"
-facebook_exists="$(grep -c facebook hosts.new)"
-
-# if localhost is already in the file and not ipv6 then we
-# replace it otherwice we assume we have a # and create a
-# localhost info before the #
-if [ "$localhost_exitsts" -ge 1 ]
-then
-    sed -i 's/127...... localhost/127.0.0.2 localhost/1' hosts.new
-else
-    echo "127.0.0.2 localhost" >> hosts.new
-fi
-
-# for facebook, we also check to see whether it exists and act accordingly
-if [ "$facebook_exists" -ge 1 ]
-then
-    sed -i 's/....... facebook.com/8.8.8.8 facebook.com/1' hosts.new
-else
-    echo "8.8.8.8 facebook.com" >> hosts.new
-fi
+echo "127.0.0.2 localhost" >> hosts.new
+echo "8.8.8.8 facebook.com" >> hosts.new
 
 cp -f ./hosts.new /etc/hosts
