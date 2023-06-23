@@ -1,3 +1,4 @@
+# a puppet script to create a file
 file { '/tmp/school':
   ensure  => present,
   owner   => 'www-data',
